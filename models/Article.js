@@ -7,13 +7,18 @@ var Schema = mongoose.Schema;
 
 // Create article schema
 var ArticleSchema = new Schema({
-  // title is a required string
-  title: {
+  // headline is a required string
+  headline: {
     type: String,
     required: true
   },
+  // summary is a required string
+  summary: {
+    type: String,
+    required: false
+  },
   // link is a required string
-  link: {
+ url: {
     type: String,
     required: true
   },
