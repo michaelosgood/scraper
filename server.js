@@ -1,15 +1,5 @@
 // Michael Osgood / Web Scraping Application
 
-/* Scrape and Display
- * (If you can do this, you should be set for your hw)
- * ================================================== */
-
-// STUDENTS:
-// Please complete the routes with TODOs inside.
-// Your specific instructions lie there
-
-// Good luck!
-
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
@@ -53,7 +43,6 @@ db.once("open", function() {
 
 
 // Routes
-// ======
 
 // A GET request to scrape the onion website
 app.get("/scrape", function(req, res) {
