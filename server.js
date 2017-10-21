@@ -28,7 +28,10 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/scraper");
+// Remote data base
+mongoose.connect("mongodb://heroku_wkmdk8d7:s77am1st1o929vku2ts4l56c8u@ds227565.mlab.com:27565/heroku_wkmdk8d7");
+// Uncomment to connect to local host
+// mongoose.connect("mongodb://localhost/scraper");
 var db = mongoose.connection;
 
 // Show any mongoose errors
