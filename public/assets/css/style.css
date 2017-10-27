@@ -34,6 +34,7 @@ hr {
   /* Set the hr color */
   color: #e9e9e9;/* old IE */
   background-color: #e9e9e9;
+  border-radius: 25px;
 }
 .navbar-brand {
   color: #e9e9e9;
@@ -55,6 +56,9 @@ hr {
 #titleinput {
   float:right;
   width:100%;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #a6bbca;
 }
 #wrapper {
   width: 100%;
@@ -66,29 +70,33 @@ hr {
   display: inline-block;
   overflow: auto;
   width: 60%;
-  /* height: 700px; */
 }
 #notes {
   display: inline-block;
-  /* float: right; */
   width: 40%;
-}
-textarea, input {
-  padding: 3%;
-  margin:3%;
-  border-radius: 25px;
-  display: inline-block;
-  /* float:right; */
-  width: 100%;
-  background-color: #65899d;
 }
 input {
   height: 36px;
   font-size: 24px;
+  padding: 3%;
+  margin:3%;
+  border-radius: 25px;
+  display: inline-block;
+  width: 100%;
+  background-color: #65899d;
+  border-style: solid;
+  border-color: #a6bbca;
 }
 textarea {
   height: 200px;
-  font-size: 18px;
+  font-size: 18px; padding: 3%;
+  margin:3%;
+  border-radius: 25px;
+  display: inline-block;
+  width: 100%;
+  background-color: #65899d;
+  border-style: solid;
+  border-color: #a6bbca;
 }
 footer {
   background-color: #65899d;
