@@ -150,7 +150,7 @@ app.post("/articles/:id", function(req, res) {
 });
 
 
-// Listen on port 3000
+// Listen on port 4000
 app.listen(4000, function() {
-  console.log("App running on port 3000!");
+  console.log("App running on port 4000!");
 });
