@@ -29,9 +29,9 @@ app.use(express.static("public"));
 
 // Database configuration with mongoose
 // Uncomment code below to connect to remote data base
-//mongoose.connect("mongodb://heroku_wkmdk8d7:s77am1st1o929vku2ts4l56c8u@ds227565.mlab.com:27565/heroku_wkmdk8d7");
+mongoose.connect("mongodb://heroku_kd6l1t0f:579dop66mqb3n89j6lppcg6219@ds149335.mlab.com:49335/heroku_kd6l1t0f");
 // Uncomment code below to connect to local host
-mongoose.connect("mongodb://localhost/scraper");
+//mongoose.connect("mongodb://localhost/scraper");
 var db = mongoose.connection;
 
 // Show any mongoose errors
