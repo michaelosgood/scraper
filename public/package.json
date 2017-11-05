@@ -4,7 +4,7 @@
   "description": "a web scraper",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js"
   },
   "author": "Michael Osgood",
   "license": "ISC",
